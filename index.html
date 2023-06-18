@@ -9,25 +9,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  
-    <h1 class="title">Universidad Autonoma de Yucatan</h1>
-    <h2 class="title2">Portal de Servicios en linea</h1>
-        <div class="instrucciones">
-            <ul>Ingrese su Número de Identificación de Usuario (Número de Cuenta) y su Número de Identificación Personal
-                (Contraseña). Cuando termine, seleccione Ingresar</ul>
-            <li>Si eres docente nuevo contacta a la Dirección de Servicios Académicos de tu campus y solicita tu acceso.
-            </li>
-            <li>Si olvidaste tu contraseña y eres Docente, contacta a la Dirección de Servicios Académicos de tu campus y
-                solicita reestablecer tu contraseña</li>
-        </div>
-        <form action="">
-            <div id="alert"></div>
-            <input placeholder="username" type="text" id="username">
-            <input placeholder="password" type="password" id="password">
-            <button id="button">Ingresar</button>
-        </form>
-  
-  <script src="script.js"></script>
-  </body>
-  
+    <header>
+        <img src="logo.png" alt="">
+        <h1 class="title">Universidad Autonoma de Yucatan</h1>
+    </header>
+    <div class="container">
+            <div class="login">
+                <h2 class="title2 row">Portal de Servicios en linea</h2>
+                <div class="instructions row">
+                    <ul>Ingrese su Número de Identificación de Usuario (Número de Cuenta) y su Número de Identificación Personal(Contraseña). Cuando termine, seleccione Ingresar.</ul>
+                    <li>Si eres docente nuevo contacta a la Dirección de Servicios Académicos de tu campus y solicita tu acceso.
+                    </li>
+                    <li>Si olvidaste tu contraseña y eres Docente, contacta a la Dirección de Servicios Académicos de tu campus y solicita reestablecer tu contraseña</li>
+                </div>
+                <div id="alert"></div>
+                <form action="" class="row">
+                    <input placeholder="username" type="text" id="username">
+                    <input placeholder="password" type="password" id="password">
+                    <button id="button">Ingresar</button>
+                </form>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
   </html>
